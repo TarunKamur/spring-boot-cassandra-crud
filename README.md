@@ -1,6 +1,6 @@
 # spring-boot-cassandra-crud
 Spring boot CRUD (Create, Read, Update, Delete) demo application with cassandra DB - 
-In this application, we have implemented CRUD (Create, Read, Update, Delete) operations using spring data and cassandra DB.
+In this application, we have implemented CRUD (Create, Read, Update, Delete) operations using spring data and cassandra DB..
 
 
 ## Prerequisites 
