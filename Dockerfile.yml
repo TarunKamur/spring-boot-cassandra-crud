@@ -1,0 +1,7 @@
+FROM ubuntu
+RUN amazon-linux-extras install java openjdk-11 -y
+WORKDIR /app
+COPY target/spring-boot-cassandra-crud.jar /app/spring-boot-cassandra-crud.jar
+EXPOSE 8080
+CMD ["java", "-jar", "spring-boot-cassandra-crud.jar"]
+
