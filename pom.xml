@@ -22,7 +22,9 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<version>2.6.3</version> <!-- Use a valid and existing version -->
+    			<scope>test</scope>
 		</dependency>
 
 		<dependency>
